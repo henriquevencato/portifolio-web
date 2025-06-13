@@ -1,6 +1,6 @@
 # Portfolio-Web
 
-# Esse é meu projet0 de portfolio:
+# Esse é meu projeto de portfolio:
 - Um breve resumo profissional.
 - Experiência.
 - Habilidades.
