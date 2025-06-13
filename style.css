@@ -1,85 +1,120 @@
 /* Reset básico */
-* {
+body {
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
-body {
-  font-family: 'Orbitron', sans-serif;
-  background-color: #1a1a1a;
-  color: #e0e0e0;
-  line-height: 1.6;
-  background-image: url('cod-background.jpg'); /* imagem temática opcional */
-  background-size: cover;
-  background-attachment: fixed;
+header {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(0, 0%, 20%);
+  padding: 10px 20px;
+  color: rgb(255, 255, 255);
+  position: sticky;
+  top: 0;
+  z-index: 2;
+
 }
 
-.header {
-  background-color: rgba(0, 0, 0, 0.85);
-  padding: 20px;
+footer {
+  background: hsl(0, 0%, 20%);
+  color: rgb(255, 255, 255);
+  padding: 10px;
   text-align: center;
-  border-bottom: 2px solid #444;
 }
 
-.logo {
-  width: 60px;
-  vertical-align: middle;
+nav a {
+  color: rgb(255, 255, 255);
+  margin: 0 10px;
+  text-decoration: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: background-color 0.5s;
+  font-size: large;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+
 }
 
-h2 {
-  font-size: 2rem;
-  color: #00ff66;
+nav a:hover {
+  color: blueviolet;
+}
+
+
+.card {
+  border: 3px solid blueviolet;
+  padding: 10px;
+  margin-bottom: 10px;
+   margin: auto;
+   border-radius: 10px;
+}
+
+.card a {
+  text-decoration: none;
+  color: blueviolet;
+  background-color: hsl(0, 0%, 20%);
+  padding: 8px 12px;
+  border-radius: 5px;
+  display: inline-block;
+  transition: background-color 0.6s;
+  font-weight: bold;
+   
+}
+
+
+
+aside {
+  background: #595858;
+  padding: 10px;
   margin-top: 10px;
 }
 
-.nav a {
-  margin: 0 10px;
-  color: #ccc;
-  text-decoration: none;
-  font-weight: bold;
-  text-transform: uppercase;
+footer a {
+  color: white;
+  margin: 0 5px;
 }
 
-.nav a:hover {
-  color: #00ff66;
+.background {
+  background-image: url('https://static.vecteezy.com/system/resources/thumbnails/026/305/040/large/vintage-abstract-black-white-wave-background-free-video.jpg');
+  background-position: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  filter: brightness(0.5);
 }
 
-.main {
-  padding: 40px;
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-/* Example card style */
-.card {
-  background-color: #2b2b2b;
-  border: 1px solid #555;
-  padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 6px;
-  transition: transform 0.3s;
-}
-
-.card:hover {
-  transform: scale(1.03);
-  border-color: #00ff66;
-}
-
-/* Footer */
-.footer {
-  background-color: #111;
-  color: #888;
+.projects {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+  background-color: rgba(27, 27, 27, 0.8);
+  border-radius: 12px;
+  margin-top: 30px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  display: flex;
   text-align: center;
+
+}
+
+p, h4, h3, h2 {
+  color: rgb(255, 255, 255);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.presentation {
   padding: 20px;
-  border-top: 2px solid #444;
-}
+  max-width: 800px;
+  margin: auto;
+  background-color: rgba(27, 27, 27, 0.8);
+  border-radius: 12px;
+  margin-top: 30px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
 
-.footer a {
-  color: #00ff66;
-  text-decoration: none;
-  margin: 0 10px;
-}
-
-.footer a:hover {
-  text-decoration: underline;
 }
