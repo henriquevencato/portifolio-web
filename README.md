@@ -1,4 +1,4 @@
-# Curriculo
+# Portifolio-Web
 
 # Esse é meu curriculo com toda a minha:
 - Um breve resumo profissional.
@@ -7,4 +7,4 @@
 - E um pouco sobre mim.
 - Meus Objeivos.
 # Autor:
--Henrique vencato 
+-Henrique vencato https://github.com/henriquevencato
