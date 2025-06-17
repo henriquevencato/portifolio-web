@@ -173,7 +173,7 @@ h2 {
   }
 }
 
-/* Celulares: até 480px */
+
 @media (max-width: 480px) {
   header {
     padding: 10px;
