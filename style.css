@@ -177,7 +177,7 @@ h2 {
 
 @media (max-width: 480px) {
   header {
-    padding: 10px;
+    padding: 20px;
   }
 
   nav a {
@@ -185,13 +185,13 @@ h2 {
     width: 100%;
     box-sizing: border-box;
     font-size: 1rem;
-    padding: 10px;
+    padding: 20px;
     margin: 5px 0;
   }
 
   .projetos {
-    padding: 15px 10px;
-    margin-top: 15px;
+    padding: 20px 15px;
+    margin-top: 20px;
   }
 
   .card {
