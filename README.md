@@ -1,11 +1,11 @@
 # Portfólio Web
 
 Este é meu projeto de portfólio:
--um breve resumo
--meus objetivos
+- um breve resumo
+- meus objetivos
 - experiencia
--projetos
--um pouco sobre mim 
+- projetos
+- um pouco sobre mim 
 
 ## Tecnologias
 - HTML5
