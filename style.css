@@ -65,6 +65,7 @@ nav a:hover {
   font-weight: bold;
 
 }
+
 .card a:hover {
   background-color: blueviolet;
   color: white;
@@ -107,17 +108,16 @@ footer a {
 
 }
 
-p,
-h4,
-h3 {
+p, h4, h3 {
   color: rgb(255, 255, 255);
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 h2 {
   text-align: center;
   color: rgb(255, 255, 255);
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  
+
 }
 
 .sobre {
@@ -129,4 +129,55 @@ h2 {
   margin-top: 30px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
 
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .logo {
+    width: 60px;
+  }
+
+  .section {
+    padding: 20px;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 350px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    padding: 10px;
+  }
+
+  .nav a {
+    margin-left: 10px;
+    font-size: 14px;
+  }
+
+  .logo {
+    width: 50px;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .section h3 {
+    font-size: 20px;
+  }
 }
